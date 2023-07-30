@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24530D292A740F0E003FA925 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D222A740F0E003FA925 /* A.wav */; };
+		24530D2A2A740F0E003FA925 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D232A740F0E003FA925 /* E.wav */; };
+		24530D2B2A740F0E003FA925 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D242A740F0E003FA925 /* F.wav */; };
+		24530D2C2A740F0E003FA925 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D252A740F0E003FA925 /* G.wav */; };
+		24530D2D2A740F0E003FA925 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D262A740F0E003FA925 /* B.wav */; };
+		24530D2E2A740F0E003FA925 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D272A740F0E003FA925 /* D.wav */; };
+		24530D2F2A740F0E003FA925 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24530D282A740F0E003FA925 /* C.wav */; };
 		24892E1D2A72AF8B000676DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24892E1C2A72AF8B000676DD /* AppDelegate.swift */; };
 		24892E1F2A72AF8B000676DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24892E1E2A72AF8B000676DD /* SceneDelegate.swift */; };
 		24892E212A72AF8B000676DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24892E202A72AF8B000676DD /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24530D222A740F0E003FA925 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		24530D232A740F0E003FA925 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		24530D242A740F0E003FA925 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		24530D252A740F0E003FA925 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		24530D262A740F0E003FA925 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		24530D272A740F0E003FA925 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		24530D282A740F0E003FA925 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 		24892E192A72AF8B000676DD /* Baby-xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby-xylophone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24892E1C2A72AF8B000676DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24892E1E2A72AF8B000676DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +77,23 @@
 				24892E252A72AF8C000676DD /* Assets.xcassets */,
 				24892E272A72AF8C000676DD /* LaunchScreen.storyboard */,
 				24892E2A2A72AF8C000676DD /* Info.plist */,
+				24A1891E2A73072A00050934 /* Sounds */,
 			);
 			path = "Baby-xylophone";
+			sourceTree = "<group>";
+		};
+		24A1891E2A73072A00050934 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				24530D222A740F0E003FA925 /* A.wav */,
+				24530D262A740F0E003FA925 /* B.wav */,
+				24530D282A740F0E003FA925 /* C.wav */,
+				24530D272A740F0E003FA925 /* D.wav */,
+				24530D232A740F0E003FA925 /* E.wav */,
+				24530D242A740F0E003FA925 /* F.wav */,
+				24530D252A740F0E003FA925 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24530D2E2A740F0E003FA925 /* D.wav in Resources */,
+				24530D2A2A740F0E003FA925 /* E.wav in Resources */,
 				24892E292A72AF8C000676DD /* LaunchScreen.storyboard in Resources */,
 				24892E262A72AF8C000676DD /* Assets.xcassets in Resources */,
+				24530D2F2A740F0E003FA925 /* C.wav in Resources */,
+				24530D2D2A740F0E003FA925 /* B.wav in Resources */,
+				24530D2B2A740F0E003FA925 /* F.wav in Resources */,
+				24530D2C2A740F0E003FA925 /* G.wav in Resources */,
+				24530D292A740F0E003FA925 /* A.wav in Resources */,
 				24892E242A72AF8B000676DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
